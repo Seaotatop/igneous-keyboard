@@ -1,4 +1,159 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U1
+U 1 1 600CD203
+P 5900 3800
+F 0 "U1" H 5900 4637 60  0000 C CNN
+F 1 "Elite-C" H 5900 4531 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 6950 1300 60  0001 C CNN
+F 3 "" V 6950 1300 60  0001 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 600CE9FD
+P 3750 3350
+F 0 "MX1" H 3783 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 3783 3499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3125 3325 60  0001 C CNN
+F 3 "" H 3125 3325 60  0001 C CNN
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 600CFBD6
+P 3550 3600
+F 0 "D1" V 3596 3532 50  0000 R CNN
+F 1 "D_Small" V 3505 3532 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 3600 50  0001 C CNN
+F 3 "~" V 3550 3600 50  0001 C CNN
+	1    3550 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3500 3700 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 600D6C02
+P 4450 3350
+F 0 "MX3" H 4483 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 4483 3499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3825 3325 60  0001 C CNN
+F 3 "" H 3825 3325 60  0001 C CNN
+	1    4450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 600D6C08
+P 4250 3600
+F 0 "D3" V 4296 3532 50  0000 R CNN
+F 1 "D_Small" V 4205 3532 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4250 3600 50  0001 C CNN
+F 3 "~" V 4250 3600 50  0001 C CNN
+	1    4250 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3500 4400 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 600D71F0
+P 3750 4150
+F 0 "MX2" H 3783 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 3783 4299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3125 4125 60  0001 C CNN
+F 3 "" H 3125 4125 60  0001 C CNN
+	1    3750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 600D71F6
+P 3550 4400
+F 0 "D2" V 3596 4332 50  0000 R CNN
+F 1 "D_Small" V 3505 4332 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3550 4400 50  0001 C CNN
+F 3 "~" V 3550 4400 50  0001 C CNN
+	1    3550 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 4300 3700 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 600D827D
+P 4450 4150
+F 0 "MX4" H 4483 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 4483 4299 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3825 4125 60  0001 C CNN
+F 3 "" H 3825 4125 60  0001 C CNN
+	1    4450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 600D8283
+P 4250 4400
+F 0 "D4" V 4296 4332 50  0000 R CNN
+F 1 "D_Small" V 4205 4332 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4250 4400 50  0001 C CNN
+F 3 "~" V 4250 4400 50  0001 C CNN
+	1    4250 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4300 4400 4300
+Wire Wire Line
+	3900 4100 3900 3300
+Connection ~ 3900 3300
+Wire Wire Line
+	3900 3300 3900 2850
+Wire Wire Line
+	4600 4100 4600 3300
+Connection ~ 4600 3300
+Wire Wire Line
+	4600 3300 4600 2850
+Wire Wire Line
+	4250 3700 3550 3700
+Connection ~ 3550 3700
+Wire Wire Line
+	3550 3700 3200 3700
+Wire Wire Line
+	4250 4500 3550 4500
+Connection ~ 3550 4500
+Wire Wire Line
+	3550 4500 3200 4500
+Text GLabel 3200 3700 0    50   Input ~ 0
+ROW0
+Text GLabel 3200 4500 0    50   Input ~ 0
+ROW1
+Text GLabel 3900 2850 1    50   Input ~ 0
+COL0
+Text GLabel 4600 2850 1    50   Input ~ 0
+COL1
+Text GLabel 6600 3650 2    50   Input ~ 0
+ROW0
+Text GLabel 6600 3750 2    50   Input ~ 0
+ROW1
+Text GLabel 6600 3850 2    50   Input ~ 0
+COL0
+Text GLabel 6600 3950 2    50   Input ~ 0
+COL1
 $EndSCHEMATC
